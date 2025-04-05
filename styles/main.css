@@ -39,7 +39,18 @@ body {
   text-align: left;
 }
 
-h1 {
+#classimage {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#idimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 h2 {
@@ -48,18 +59,11 @@ h2 {
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h3 {
-}
-
 p {
   text-align: center;
   text-justify: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.road {
-  padding-left: 575px;
 }
 
 @media only screen and (min-width: 500px);
