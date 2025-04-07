@@ -1,21 +1,23 @@
 body {
-  background-color: orange;
+  background-color: darkorange;
 }
 
 .title {
   font-size: 40px;
   color: blue;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 1000;
+  font-style: oblique;
 }
 
 .subtitle {
   font-size: 20px;
   color: black;
   text-align: left;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 500;
+  font-style: oblique;
 }
 
 .menu {
@@ -26,9 +28,8 @@ body {
 .home {
   text-align: center;
   text-size-adjust: 10px;
-  color: blueviolet;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .indextext {
@@ -37,6 +38,7 @@ body {
 
 .parafix {
   text-align: left;
+  text-box: ;
 }
 
 #classimage {
@@ -47,7 +49,7 @@ body {
 }
 
 #idimage {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
@@ -60,6 +62,7 @@ h2 {
 }
 
 p {
+  color: black;
   text-align: center;
   text-justify: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
