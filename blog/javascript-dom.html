@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Fundamentals</title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">JavaScript Fundamentals</h1>
+    <br />
+    <br />
+    <p>
+      In this blog we'll discuss some JavaScript (JS) basics, how it fits in
+      with Web Development and it's relationship between HTML and CSS
+    </p>
+    <h3 class="subtitle">
+      JavaScript, HTML and CSS - How are these 3 related?
+    </h3>
+    <p>
+      Let's say you've been tasked with building a car. There are many parts to
+      a car and it'd be hard to know where to start. Thankfully, you have a
+      blueprint to work off of that helps you define the cars size, shape, how
+      many seats, wheels and doors there will be. This blueprint is like HTML.
+      Now, we know that the car isn't finished just because we've managed this
+      part, it needs the actual seats and windows and doors and of course what
+      type and color of paint will be used. Making the car look like a car can
+      be likened to CSS. Now that we have all of this, our car is ready yeah?
+      Not quite! Where's its Engine? Transmission? Other mechanical and
+      electrical parts that make the car move, stop, speed-up/slow-down? That's
+      where JavaScript comes into play.
+    </p>
+
+    <p>
+      In essence, HTML lays out the structure, CSS makes it more visually
+      appealing and JavaScript enables interactivity
+    </p>
+    <button id="clickme">Click me!</button>
+    <!-- js to be written to show image when clicked and take it away when clicked again-->
+    <img id="image" src="/images/html-css-js-relation.jpeg" />
+    <br />
+    <h3 class="subtitle">Control Flow and Loops</h3>
+    <p>
+      Control Flow is the way in which the code is read. HTML and CSS read from
+      top to bottom and can sometimes overwrite earlier instructions due to
+      this. For JS, we don't really want this to happen, well not all the time
+      at least. Thankfully we have Conditionals and Loops to help us out with
+      this!
+    </p>
+    <p>
+      Setting a Condition lets us provide a Function for it. Dependent on the
+      function, it can make the condition true or false immediately or when
+      another condition has been met
+    </p>
+    <img id="image" src="/images/conditional.png" />
+    <p>
+      Setting a Loop allows an action to repeat however many times you've set it
+      to and/or until a condition is met. Typically this type of code is used
+      with Arrays as it can take one of the many values set within one and
+      return it with another one
+    </p>
+    <img id="image" src="/images/loop.png" />
+    <p>
+      <em
+        >Counter (i) starts at 0, if this number (i) is less than 5, add one and
+        keep counting until 5</em
+      >
+    </p>
+    <br />
+    <h3 class="subtitle">Arrays and Objects</h3>
+    <p>
+      Arrays can hold multiple values and these values can be called depending
+      on their position within the array and what ever condition has been set in
+      order for this to happen. Positions? See the image below to see what is
+      meant by this. Arrays start counting from 0... (programmer things xD)
+    </p>
+    <img id="image" src="/images/Array.png" />
+    <p>
+      Objects contain Variables defined by Keys and the Value given to them.
+      Using this kind of code can help with assigning lots of Values to a single
+      Variable. That way you don't have to code the same value every time,
+      instead you can just call that info from the Object Key. You can use that
+      same info for other functions too
+    </p>
+    <img id="image" src="/images/object.png" />
+    <br />
+    <h3 class="subtitle">Functions</h3>
+    <p>
+      Functions perform a particular task and are really useful as you can reuse
+      the same code however many times is required meaning you don't have to
+      continually code the same lines, just call it
+    </p>
+    <img id="image" src="/images/function.png" />
+    <p>
+      <em
+        >This function is rendering the words "Cash:$' and the dollar value (set
+        by the variable cash) and is putting it in place of the 'cash' ID that
+        has been set in HTML (bit of DOM manipulation going on...more on that
+        below)</em
+      >
+    </p>
+    <br />
+    <h3 class="subtitle">What is DOM?</h3>
+    <p>
+      Document Object Model (DOM) is a programming interface that allows
+      JavaScript to interact and manipulate a web pages content, structure and
+      style. DevTools in Chrome is a type of DOM and it can represent a document
+      (HTML, CSS or JS) as a node, which is how programming languages can
+      interact with the page
+    </p>
+    <p>
+      Some typical use cases of the DOM include; building interactive elements
+      like buttons, forms and animations that respond to actions, as well as
+      dynamic updates, being able to update a part of a website without a
+      full-reload
+    </p>
+  </body>
+</html>
