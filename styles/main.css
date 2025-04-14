@@ -1,6 +1,6 @@
 body {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5%;
   padding: 10px;
   border-radius: 10px;
@@ -19,9 +19,18 @@ body {
 .subtitle {
   font-size: 20px;
   color: black;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.bullet {
+  font-size: 20px;
+  color: black;
   text-align: left;
   font-family: 'Gloria Hallelujah', cursive;
-  font-weight: 500;
+  font-weight: bold;
   font-style: oblique;
 }
 
@@ -49,25 +58,25 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
 }
 
 #idimage {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
   color: black;
-  text-align: center;
+  text-align: left;
   text-justify: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -77,5 +86,5 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 70%;
 }
