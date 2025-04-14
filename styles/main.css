@@ -3,7 +3,10 @@ body {
   margin-right: 10%;
   margin-bottom: 5%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: white;
+  border-style: solid;
   background-color: darkorange;
 }
 
@@ -12,8 +15,7 @@ body {
   color: blue;
   text-align: center;
   font-family: 'Gloria Hallelujah', cursive;
-  font-weight: 1000;
-  font-style: oblique;
+  font-weight: 1000px;
 }
 
 .subtitle {
