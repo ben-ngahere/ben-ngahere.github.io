@@ -76,7 +76,8 @@ h2 {
 
 p {
   color: black;
-  text-align: left;
+  font-size: 15px;
+  text-align: center;
   text-justify: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
