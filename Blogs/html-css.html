@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>blog: BenN. - CSS: Classes Vs. IDs</title>
+    <link href="/Styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">blog: BenN.</h1>
+    <div style="display: flex; justify-content: space-around">
+      <span class="title"><a href="index.html">Home</a></span>
+      <span class="title"><a href="/Sprints/sprints.html">Foundations</a></span>
+      <span class="title">JS</span>
+    </div>
+    <h1 class="heading">CSS: Classes Vs. Ids</h1>
+    <br />
+    <p>
+      In CSS, when using "Classes" and "Id" selectors, they help to keep your
+      code organised, efficient and keep the same design elements throughout
+      when working with HTML. Below I will explain the differences and best
+      practices on when to use a Class or an ID
+    </p>
+    <br />
+    <h3 class="subtitle">What is an ID?</h3>
+    <p>
+      An ID identifies a single element, which lets us apply a particular style
+      to it. IDs are specific. There can be multiple elements on a page, but the
+      ID marks a specific element. Each element can only have one ID, and each
+      page can only have one element with that specific ID. When classifying an
+      ID, see the images on how to set the ID in HTML and then how to use it
+      with CSS (the # is important when declaring in CSS)
+    </p>
+    <div class="image-container">
+      <img src="/images/ID-1.png" />
+      <br />
+      <img src="/images/ID-2.png" />
+      <br />
+    </div>
+    <h3 class="subtitle">What is a Class?</h3>
+    <p>
+      A Class identifies multiple elements and should be used when we need to
+      use the same selector many times within the page or site. Classes can be
+      assigned to multiple elements and is the main difference from an ID as
+      they are not unique. EG. only 1 element can have an ID, but it can have
+      multiple classes (the . is important when declaring in CSS)
+    </p>
+    <div class="image-container">
+      <img src="/Images/Class-1.png" />
+      <img src="/images/Class-2.png" />
+      <br />
+    </div>
+    <h3 class="subtitle">Best Practices</h3>
+    <p>
+      At first it can be hard to know which one to use and using one or the
+      other isn't really wrong as they both kind of do the same thing. The main
+      thing to think of is like this; A class is like a barcode and an ID is
+      like a serial number. Use a Class to identify multiple of the same thing
+      eg. the model of a cellphone. Use an ID to identify the specific one of
+      all the same models
+    </p>
+  </body>
+  <footer></footer>
+</html>

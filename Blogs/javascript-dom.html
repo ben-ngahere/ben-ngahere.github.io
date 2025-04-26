@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JS Fundamentals</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <title>blog: BenN. - JS Fundamentals</title>
+    <link href="/Styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <h1 class="title">JavaScript Fundamentals</h1>
-    <br />
+    <h1 class="heading">blog: BenN.</h1>
+    <div style="display: flex; justify-content: space-around">
+      <span class="title"><a href="index.html">Home</a></span>
+      <span class="title"><a href="/Sprints/sprints.html">Foundations</a></span>
+      <span class="title">JS</span>
+    </div>
+    <h1 class="heading">JavaScript Fundamentals</h1>
     <br />
     <p>
       In this blog we'll discuss some JavaScript (JS) basics, how it fits in
@@ -41,8 +53,9 @@
       appealing and JavaScript enables interactivity
     </p>
     <br />
-    <!-- js to be written to show image when clicked and take it away when clicked again-->
-    <img id="image" src="/images/html-css-js-relation.jpeg" />
+    <div class="image-container">
+      <img id="image" src="/images/html-css-js-relation.jpeg" />
+    </div>
     <br />
     <h3 class="subtitle">Control Flow and Loops</h3>
     <p>
@@ -57,14 +70,18 @@
       function, it can make the condition true or false immediately or when
       another condition has been met
     </p>
-    <img id="image" src="/images/conditional.png" />
+    <div class="image-container">
+      <img id="image" src="/images/conditional.png" />
+    </div>
     <p>
       Setting a Loop allows an action to repeat however many times you've set it
       to and/or until a condition is met. Typically this type of code is used
       with Arrays as it can take one of the many values set within one and
       return it with another one
     </p>
-    <img id="image" src="/images/loop.png" />
+    <div class="image-container">
+      <img id="image" src="/images/loop.png" />
+    </div>
     <p>
       <em
         >Counter (i) starts at 0, if this number (i) is less than 5, add one and
@@ -80,7 +97,9 @@
       image below to see what is meant by this. Arrays start counting from 0...
       (programmer things xD)
     </p>
-    <img id="image" src="/images/Array.png" />
+    <div class="image-container">
+      <img id="image" src="/images/Array.png" />
+    </div>
     <p>
       Objects contain Variables defined by Keys and the Value given to them.
       Using this kind of code can help with assigning lots of Values to a single
@@ -88,7 +107,9 @@
       instead you can just call that info from the Object Key. You can use that
       same info for other functions too
     </p>
-    <img id="image" src="/images/object.png" />
+    <div class="image-container">
+      <img src="/images/object.png" />
+    </div>
     <br />
     <h3 class="subtitle">Functions</h3>
     <p>
@@ -96,7 +117,9 @@
       the same code however many times is required meaning you don't have to
       continually code the same lines, just call it
     </p>
-    <img id="image" src="/images/function.png" />
+    <div class="image-container">
+      <img src="/images/function.png" />
+    </div>
     <p>
       <em
         >This function is rendering the words "Cash:$' and the dollar value (set
@@ -106,7 +129,7 @@
       >
     </p>
     <br />
-    <h3 class="subtitle">What is DOM?</h3>
+    <h3 class="subtitle">What is the DOM?</h3>
     <p>
       Document Object Model (DOM) is a programming interface that allows
       JavaScript to interact and manipulate a web pages content, structure and
@@ -120,6 +143,9 @@
       dynamic updates, being able to update a part of a website without a
       full-reload
     </p>
-    <a class="home" href="/blog/blog.html"><h3>Back</h3></a>
+    <div class="image-container">
+      <img src="/Images/DOM-Tree.webp" />
+    </div>
   </body>
+  <footer></footer>
 </html>
