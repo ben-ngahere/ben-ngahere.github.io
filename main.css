@@ -126,6 +126,19 @@ footer {
 .blog-title {
   color: #d25a19;
   font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-title {
+  color: #2be0bc;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+.menu-jsc {
+  width: 1500px;
+  margin: 0 auto;
 }
 
 .bullet {
