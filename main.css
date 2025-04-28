@@ -273,14 +273,27 @@ ul {
   height: auto;
 }
 
-.icon-txt-fixed {
+.left-txt-fixed {
   position: fixed;
   left: 5px;
   bottom: 0;
   z-index: 100;
 }
 
-.icon-txt-fixed p {
+.left-txt-fixed p {
+  margin: 0;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+
+.right-txt-fixed {
+  position: fixed;
+  right: 5px;
+  bottom: 0;
+  z-index: 100;
+}
+
+.right-txt-fixed p {
   margin: 0;
   font-size: 10px;
   padding-bottom: 12px;
