@@ -268,6 +268,10 @@ ul {
   height: auto;
 }
 
+.logo-zoom:hover {
+  transform: scale(1.2);
+}
+
 .left-txt-fixed {
   position: fixed;
   left: 5px;
@@ -332,4 +336,9 @@ ul {
   max-width: 30px;
   height: auto;
   margin: 0 5px;
+  transition: transform 0.2s;
+}
+
+.footer-img:hover {
+  transform: scale(1.2);
 }
