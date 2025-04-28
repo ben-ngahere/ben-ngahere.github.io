@@ -166,11 +166,6 @@ footer {
   list-style: none;
 }
 
-.menu-jsc {
-  width: 1500px;
-  margin: 0 auto;
-}
-
 .bullet {
   color: #d25a19;
   font-weight: bold;
@@ -286,7 +281,7 @@ ul {
   padding-bottom: 5px;
 }
 
-.right-txt-fixed {
+/*.right-txt-fixed {
   position: fixed;
   right: 5px;
   bottom: 0;
@@ -296,8 +291,8 @@ ul {
 .right-txt-fixed p {
   margin: 0;
   font-size: 10px;
-  padding-bottom: 12px;
-}
+  padding-bottom: 5px;
+}*/
 
 .image-grid {
   display: grid;
