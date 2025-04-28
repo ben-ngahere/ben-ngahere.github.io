@@ -43,9 +43,16 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
+.a:hover {
+  font-weight: bold;
+}
+
 .aa {
   text-decoration: underline;
   color: #e1ead9;
+}
+
+.aa:hover {
   font-weight: bold;
 }
 
@@ -157,6 +164,10 @@ footer {
   color: #d25a19;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
+}
+
+.blog-title:hover {
+  font-weight: bold;
 }
 
 .menu-title {
