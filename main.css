@@ -30,6 +30,7 @@ a {
 .a {
   text-decoration: underline;
   color: #e1ead9;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .aa {
@@ -57,8 +58,6 @@ footer {
   padding: 5px 0;
   border-top: 1px solid #e1ead9;
   z-index: 0;
-  display: inline-block;
-  max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -264,6 +263,19 @@ ul {
   height: auto;
 }
 
+.icon-txt-fixed {
+  position: fixed;
+  left: 5px;
+  bottom: 0;
+  z-index: 100;
+}
+
+.icon-txt-fixed p {
+  margin: 0;
+  font-size: 10px;
+  padding-bottom: 12px;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -288,6 +300,13 @@ ul {
   text-align: center;
   padding: 5px 0;
   border-top: 1px solid #e1ead9;
+}
+
+.logo-footer p {
+  text-align: left;
+  margin-right: auto;
+  font-size: 10px;
+  padding-left: 10px;
 }
 
 .footer-img {
